@@ -1,0 +1,10 @@
+/**
+ * Toolkit styles
+ */
+
+@import './tachyons/tachyons';
+
+body {
+  font-family: sans-serif;
+  background: red;
+}
