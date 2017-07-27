@@ -17,7 +17,7 @@ $theme-light: (
 	normal: map-get($base-colors, medium)
 );
 
-$theme: $theme-light;
+$theme: $theme-dark;
 
 $colors: map-merge($base-colors, $theme);
 

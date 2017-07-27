@@ -66,6 +66,12 @@
 					<a href="01-patterns.html" class="f-menu__heading">Patterns</a>
 					<ul>
 						<li>
+							<a href="01-patterns.html#colors">Colors</a>
+						</li>
+						<li>
+							<a href="01-patterns.html#layout">Layout</a>
+						</li>
+						<li>
 							<a href="01-patterns.html#typography">Typography</a>
 						</li>
 					</ul>
@@ -74,10 +80,13 @@
 					<a href="02-components.html" class="f-menu__heading">Components</a>
 					<ul>
 						<li>
-							<a href="02-components.html#button">Button</a>
+							<a href="02-components.html#buttons">Buttons</a>
 						</li>
 						<li>
 							<a href="02-components.html#checkbox">Checkbox</a>
+						</li>
+						<li>
+							<a href="02-components.html#image">Image</a>
 						</li>
 						<li>
 							<a href="02-components.html#lists">Lists</a>
@@ -106,7 +115,16 @@
 					<a href="03-structures.html" class="f-menu__heading">Structures</a>
 					<ul>
 						<li>
+							<a href="03-structures.html#blog-post">Blog Post</a>
+						</li>
+						<li>
+							<a href="03-structures.html#footer">Footer</a>
+						</li>
+						<li>
 							<a href="03-structures.html#form">Form</a>
+						</li>
+						<li>
+							<a href="03-structures.html#header">Header</a>
 						</li>
 					</ul>
 				</li>
@@ -115,7 +133,10 @@
 					<a href="pages.html" class="f-menu__heading">Pages</a>
 					<ul>
 						<li>
-							<a href="pages/home.html">Home</a>
+							<a href="pages/blog.html">Blog</a>
+						</li>
+						<li>
+							<a href="pages/contact.html">Contact</a>
 						</li>
 					</ul>
 				</li>
@@ -148,33 +169,131 @@
 <h1 data-f-toggle="labels">Components</h1>
 
 
-<div class="f-item-group" id="button">
+<div class="f-item-group" id="buttons">
 
-	<div class="f-item-heading-group" data-f-toggle="labels">
-		<h2 class="f-item-heading">Button</h2>
-		<div class="f-item-controls">
-			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
-				<svg>
-					<use xlink:href="#f-icon-notes" />
-				</svg>
-			</span>
-			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
-				<svg>
-					<use xlink:href="#f-icon-code" />
-				</svg>
-			</span>
-		</div>
-	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>These are notes associated with this <code>button</code> component.</p>
-
-</div>
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Buttons</h2>
+	</div>
+		<div class="f-item-group" id="buttons.border-black">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Border Black</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
 <div class="f-item-preview">
-	<button class="button">Submit</button>
+	<button class="f6 link dim br-pill ba ph4 pv3 mb2 dib black input-reset bg-transparent" type="button" name="button">Button Text</button>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;button class&#x3D;&quot;button&quot;&gt;Submit&lt;/button&gt;</code></pre>
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ba ph4 pv3 mb2 dib black input-reset bg-transparent&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
 </div>
 
+		</div>
+		<div class="f-item-group" id="buttons.border-green">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Border Green</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<button class="f6 link dim br-pill ba b--dark-green dark-green ph4 pv3 mb2 dib black input-reset bg-transparent" type="button" name="button">Button Text</button>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ba b--dark-green dark-green ph4 pv3 mb2 dib black input-reset bg-transparent&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="buttons.border-white">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Border White</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<button class="f6 link dim br-pill ba b--white ph4 pv3 mb2 dib white input-reset bg-transparent" type="button" name="button">Button Text</button>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ba b--white ph4 pv3 mb2 dib white input-reset bg-transparent&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="buttons.full-black">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Full Black</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<button class="f6 link dim br-pill ph4 pv3 mb2 dib white bg-black input-reset bw0" type="button" name="button">Button Text</button>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ph4 pv3 mb2 dib white bg-black input-reset bw0&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="buttons.full-green">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Full Green</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<button class="f6 link dim br-pill ph4 pv3 mb2 dib white bg-green input-reset bw0" type="button" name="button">Button Text</button>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ph4 pv3 mb2 dib white bg-green input-reset bw0&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="buttons.full-white">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Full White</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<button class="f6 link dim br-pill ph4 pv3 mb2 dib black bg-white input-reset bw0" type="button" name="button">Button Text</button>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;button class&#x3D;&quot;f6 link dim br-pill ph4 pv3 mb2 dib black bg-white input-reset bw0&quot; type&#x3D;&quot;button&quot; name&#x3D;&quot;button&quot;&gt;Button Text&lt;/button&gt;</code></pre>
+</div>
+
+		</div>
 
 </div>
 
@@ -193,14 +312,34 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<label>
-	<input type="checkbox" /> Checkbox
-</label>
+	<label class="pa0 ma0 lh-copy f6 pointer"><input type="checkbox"> Remember me</label>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;label&gt;
-	&lt;input type&#x3D;&quot;checkbox&quot; /&gt; Checkbox
-&lt;/label&gt;</code></pre>
+	<pre><code class="language-markup">&lt;label class&#x3D;&quot;pa0 ma0 lh-copy f6 pointer&quot;&gt;&lt;input type&#x3D;&quot;checkbox&quot;&gt; Remember me&lt;/label&gt;</code></pre>
+</div>
+
+
+</div>
+
+
+<div class="f-item-group" id="image">
+
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Image</h2>
+		<div class="f-item-controls">
+			
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
+		</div>
+	</div>
+<div class="f-item-preview">
+	<img class="mw-100" src="https://source.unsplash.com/user/erondu/800x800" alt="">
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;img class&#x3D;&quot;mw-100&quot; src&#x3D;&quot;https://source.unsplash.com/user/erondu/800x800&quot; alt&#x3D;&quot;&quot;&gt;</code></pre>
 </div>
 
 
@@ -225,17 +364,17 @@
 				</div>
 			</div>
 <div class="f-item-preview">
-	<ol>
-	<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-	<li>Aliquam tincidunt mauris eu risus.</li>
-	<li>Vestibulum auctor dapibus neque.</li>
+	<ol class="pl3 ml0 mw6">
+	<li class="pv2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	<li class="pv2">Aliquam tincidunt mauris eu risus.</li>
+	<li class="pv2">Vestibulum auctor dapibus neque.</li>
 </ol>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;ol&gt;
-	&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-	&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-	&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+	<pre><code class="language-markup">&lt;ol class&#x3D;&quot;pl3 ml0 mw6&quot;&gt;
+	&lt;li class&#x3D;&quot;pv2&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+	&lt;li class&#x3D;&quot;pv2&quot;&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+	&lt;li class&#x3D;&quot;pv2&quot;&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
 &lt;/ol&gt;</code></pre>
 </div>
 
@@ -253,17 +392,17 @@
 				</div>
 			</div>
 <div class="f-item-preview">
-	<ul>
-	<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-	<li>Aliquam tincidunt mauris eu risus.</li>
-	<li>Vestibulum auctor dapibus neque.</li>
+	<ul class="list pl0 ml0 mw6 ba b--light-silver br2">
+	<li class="ph3 pv3 bb b--light-silver">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	<li class="ph3 pv3 bb b--light-silver">Aliquam tincidunt mauris eu risus.</li>
+	<li class="ph3 pv3 bb b--light-silver">Vestibulum auctor dapibus neque.</li>
 </ul>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;ul&gt;
-	&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-	&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-	&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
+	<pre><code class="language-markup">&lt;ul class&#x3D;&quot;list pl0 ml0 mw6 ba b--light-silver br2&quot;&gt;
+	&lt;li class&#x3D;&quot;ph3 pv3 bb b--light-silver&quot;&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
+	&lt;li class&#x3D;&quot;ph3 pv3 bb b--light-silver&quot;&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
+	&lt;li class&#x3D;&quot;ph3 pv3 bb b--light-silver&quot;&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
 </div>
 
@@ -286,11 +425,11 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+	<p class="lh-copy">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
 	nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.</p>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;lh-copy&quot;&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
 	nibh, ut fermentum massa justo sit amet risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.&lt;/p&gt;</code></pre>
 </div>
 
@@ -312,29 +451,13 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<label>
-	<input type="radio" name="groupName" id="radio1" /> Radio 1
-</label>
-
-<label>
-	<input type="radio" name="groupName" id="radio2" /> Radio 2
-</label>
-
-<label>
-	<input type="radio" name="groupName" id="radio3" /> Radio 3
+	<label class="pa0 ma0 lh-copy f6 pointer">
+	<input type="radio" name="groupName"> Radio
 </label>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;label&gt;
-	&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;groupName&quot; id&#x3D;&quot;radio1&quot; /&gt; Radio 1
-&lt;/label&gt;
-
-&lt;label&gt;
-	&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;groupName&quot; id&#x3D;&quot;radio2&quot; /&gt; Radio 2
-&lt;/label&gt;
-
-&lt;label&gt;
-	&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;groupName&quot; id&#x3D;&quot;radio3&quot; /&gt; Radio 3
+	<pre><code class="language-markup">&lt;label class&#x3D;&quot;pa0 ma0 lh-copy f6 pointer&quot;&gt;
+	&lt;input type&#x3D;&quot;radio&quot; name&#x3D;&quot;groupName&quot;&gt; Radio
 &lt;/label&gt;</code></pre>
 </div>
 
@@ -392,84 +515,96 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<table>
-	<thead>
-		<tr>
-			<th>Table Heading 1</th>
-			<th>Table Heading 2</th>
-			<th>Table Heading 3</th>
-		</tr>
-	</thead>
-	<tfoot>
-		<tr>
-			<th>Table Footer 1</th>
-			<th>Table Footer 2</th>
-			<th>Table Footer 3</th>
-		</tr>
-	</tfoot>
-	<tbody>
-		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-		</tr>
-		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-		</tr>
-		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-		</tr>
-		<tr>
-			<td>Table Cell 1</td>
-			<td>Table Cell 2</td>
-			<td>Table Cell 3</td>
-		</tr>
-	</tbody>
-</table>
+	<div class="overflow-auto">
+	<table class="f6 w-100 mw8" cellspacing="0">
+		<thead>
+			<tr>
+				<th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Name</th>
+				<th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Username</th>
+				<th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Email</th>
+				<th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">ID</th>
+			</tr>
+		</thead>
+		<tbody class="lh-copy">
+			<tr>
+				<td class="pv3 pr3 bb b--black-20">Hassan Johnson</td>
+				<td class="pv3 pr3 bb b--black-20">@hassan</td>
+				<td class="pv3 pr3 bb b--black-20">hassan@companywithalongdomain.co</td>
+				<td class="pv3 pr3 bb b--black-20">14419232532474</td>
+			</tr>
+			<tr>
+				<td class="pv3 pr3 bb b--black-20">Taral Hicks</td>
+				<td class="pv3 pr3 bb b--black-20">@hicks</td>
+				<td class="pv3 pr3 bb b--black-20">taral@companywithalongdomain.co</td>
+				<td class="pv3 pr3 bb b--black-20">72326219423551</td>
+			</tr>
+			<tr>
+				<td class="pv3 pr3 bb b--black-20">Tyrin Turner</td>
+				<td class="pv3 pr3 bb b--black-20">@tt</td>
+				<td class="pv3 pr3 bb b--black-20">ty@companywithalongdomain.co</td>
+				<td class="pv3 pr3 bb b--black-20">92325170324444</td>
+			</tr>
+			<tr>
+				<td class="pv3 pr3 bb b--black-20">Oliver Grant</td>
+				<td class="pv3 pr3 bb b--black-20">@oli</td>
+				<td class="pv3 pr3 bb b--black-20">oliverg@companywithalongdomain.co</td>
+				<td class="pv3 pr3 bb b--black-20">71165170352909</td>
+			</tr>
+			<tr>
+				<td class="pv3 pr3 bb b--black-20">Dean Blanc</td>
+				<td class="pv3 pr3 bb b--black-20">@deanblanc</td>
+				<td class="pv3 pr3 bb b--black-20">dean@companywithalongdomain.co</td>
+				<td class="pv3 pr3 bb b--black-20">71865178111909</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;table&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Table Heading 1&lt;/th&gt;
-			&lt;th&gt;Table Heading 2&lt;/th&gt;
-			&lt;th&gt;Table Heading 3&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tfoot&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Table Footer 1&lt;/th&gt;
-			&lt;th&gt;Table Footer 2&lt;/th&gt;
-			&lt;th&gt;Table Footer 3&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/tfoot&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr&gt;
-			&lt;td&gt;Table Cell 1&lt;/td&gt;
-			&lt;td&gt;Table Cell 2&lt;/td&gt;
-			&lt;td&gt;Table Cell 3&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;</code></pre>
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;overflow-auto&quot;&gt;
+	&lt;table class&#x3D;&quot;f6 w-100 mw8&quot; cellspacing&#x3D;&quot;0&quot;&gt;
+		&lt;thead&gt;
+			&lt;tr&gt;
+				&lt;th class&#x3D;&quot;fw6 bb b--black-20 tl pb3 pr3 bg-white&quot;&gt;Name&lt;/th&gt;
+				&lt;th class&#x3D;&quot;fw6 bb b--black-20 tl pb3 pr3 bg-white&quot;&gt;Username&lt;/th&gt;
+				&lt;th class&#x3D;&quot;fw6 bb b--black-20 tl pb3 pr3 bg-white&quot;&gt;Email&lt;/th&gt;
+				&lt;th class&#x3D;&quot;fw6 bb b--black-20 tl pb3 pr3 bg-white&quot;&gt;ID&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody class&#x3D;&quot;lh-copy&quot;&gt;
+			&lt;tr&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;Hassan Johnson&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;@hassan&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;hassan@companywithalongdomain.co&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;14419232532474&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;Taral Hicks&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;@hicks&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;taral@companywithalongdomain.co&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;72326219423551&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;Tyrin Turner&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;@tt&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;ty@companywithalongdomain.co&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;92325170324444&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;Oliver Grant&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;@oli&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;oliverg@companywithalongdomain.co&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;71165170352909&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;Dean Blanc&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;@deanblanc&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;dean@companywithalongdomain.co&lt;/td&gt;
+				&lt;td class&#x3D;&quot;pv3 pr3 bb b--black-20&quot;&gt;71865178111909&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;</code></pre>
 </div>
 
 
@@ -490,12 +625,18 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<label for="textInput">Text input</label>
-<input type="text" id="textInput" />
+	<div class="">
+	<label for="name" class="f6 b db mb2">Name <span class="normal black-60">(optional)</span></label>
+	<input id="name" class="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc">
+	<small id="name-desc" class="f6 black-60 db mb2">Helper text for the form control.</small>
+</div>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;label for&#x3D;&quot;textInput&quot;&gt;Text input&lt;/label&gt;
-&lt;input type&#x3D;&quot;text&quot; id&#x3D;&quot;textInput&quot; /&gt;</code></pre>
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;&quot;&gt;
+	&lt;label for&#x3D;&quot;name&quot; class&#x3D;&quot;f6 b db mb2&quot;&gt;Name &lt;span class&#x3D;&quot;normal black-60&quot;&gt;(optional)&lt;/span&gt;&lt;/label&gt;
+	&lt;input id&#x3D;&quot;name&quot; class&#x3D;&quot;input-reset ba b--black-20 pa2 mb2 db w-100&quot; type&#x3D;&quot;text&quot; aria-describedby&#x3D;&quot;name-desc&quot;&gt;
+	&lt;small id&#x3D;&quot;name-desc&quot; class&#x3D;&quot;f6 black-60 db mb2&quot;&gt;Helper text for the form control.&lt;/small&gt;
+&lt;/div&gt;</code></pre>
 </div>
 
 
@@ -516,10 +657,14 @@
 		</div>
 	</div>
 <div class="f-item-preview">
-	<textarea name="" id="" cols="30" rows="10"></textarea>
+	<label for="comment" class="f6 b db mb2">Comments <span class="normal black-60">(optional)</span></label>
+<textarea id="comment" name="comment" class="db border-box hover-black w-100 ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
+<small id="comment-desc" class="f6 black-60">Helper text for a form control. Can use this text to <a href="#" class="link underline black-80 hover-blue">link to more info.</a></small>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;textarea name&#x3D;&quot;&quot; id&#x3D;&quot;&quot; cols&#x3D;&quot;30&quot; rows&#x3D;&quot;10&quot;&gt;&lt;/textarea&gt;</code></pre>
+	<pre><code class="language-markup">&lt;label for&#x3D;&quot;comment&quot; class&#x3D;&quot;f6 b db mb2&quot;&gt;Comments &lt;span class&#x3D;&quot;normal black-60&quot;&gt;(optional)&lt;/span&gt;&lt;/label&gt;
+&lt;textarea id&#x3D;&quot;comment&quot; name&#x3D;&quot;comment&quot; class&#x3D;&quot;db border-box hover-black w-100 ba b--black-20 pa2 br2 mb2&quot; aria-describedby&#x3D;&quot;comment-desc&quot;&gt;&lt;/textarea&gt;
+&lt;small id&#x3D;&quot;comment-desc&quot; class&#x3D;&quot;f6 black-60&quot;&gt;Helper text for a form control. Can use this text to &lt;a href&#x3D;&quot;#&quot; class&#x3D;&quot;link underline black-80 hover-blue&quot;&gt;link to more info.&lt;/a&gt;&lt;/small&gt;</code></pre>
 </div>
 
 

@@ -66,6 +66,12 @@
 					<a href="01-patterns.html" class="f-menu__heading">Patterns</a>
 					<ul>
 						<li>
+							<a href="01-patterns.html#colors">Colors</a>
+						</li>
+						<li>
+							<a href="01-patterns.html#layout">Layout</a>
+						</li>
+						<li>
 							<a href="01-patterns.html#typography">Typography</a>
 						</li>
 					</ul>
@@ -74,10 +80,13 @@
 					<a href="02-components.html" class="f-menu__heading">Components</a>
 					<ul>
 						<li>
-							<a href="02-components.html#button">Button</a>
+							<a href="02-components.html#buttons">Buttons</a>
 						</li>
 						<li>
 							<a href="02-components.html#checkbox">Checkbox</a>
+						</li>
+						<li>
+							<a href="02-components.html#image">Image</a>
 						</li>
 						<li>
 							<a href="02-components.html#lists">Lists</a>
@@ -106,7 +115,16 @@
 					<a href="03-structures.html" class="f-menu__heading">Structures</a>
 					<ul>
 						<li>
+							<a href="03-structures.html#blog-post">Blog Post</a>
+						</li>
+						<li>
+							<a href="03-structures.html#footer">Footer</a>
+						</li>
+						<li>
 							<a href="03-structures.html#form">Form</a>
+						</li>
+						<li>
+							<a href="03-structures.html#header">Header</a>
 						</li>
 					</ul>
 				</li>
@@ -115,7 +133,10 @@
 					<a href="pages.html" class="f-menu__heading">Pages</a>
 					<ul>
 						<li>
-							<a href="pages/home.html">Home</a>
+							<a href="pages/blog.html">Blog</a>
+						</li>
+						<li>
+							<a href="pages/contact.html">Contact</a>
 						</li>
 					</ul>
 				</li>
@@ -148,43 +169,741 @@
 <h1 data-f-toggle="labels">Patterns</h1>
 
 
-<div class="f-item-group" id="typography">
+<div class="f-item-group" id="colors">
 
-	<div class="f-item-heading-group" data-f-toggle="labels">
-		<h2 class="f-item-heading">Typography</h2>
-		<div class="f-item-controls">
-			<span class="f-control f-icon" data-f-toggle-control="notes" title="Toggle Notes">
-				<svg>
-					<use xlink:href="#f-icon-notes" />
-				</svg>
-			</span>
-			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
-				<svg>
-					<use xlink:href="#f-icon-code" />
-				</svg>
-			</span>
-		</div>
-	</div><div class="f-item-notes" data-f-toggle="notes">
-	<p>These are notes associated with this <code>topygrophy</code> component.</p>
-
-</div>
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Colors</h2>
+	</div>
+		<div class="f-item-group" id="colors.color-palette">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Color Palette</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
 <div class="f-item-preview">
-	<h1 class="f1">Heading Level 1</h1>
-<h2 class="f2">Heading Level 2</h2>
-<h3 class="f3">Heading Level 3</h3>
-<h4 class="f4">Heading Level 4</h4>
-<h5 class="f5">Heading Level 5</h5>
-<h6 class="f6">Heading Level 6</h6>
+	<ul class="list pl0 ml0 cf">
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#000000"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">black</b> <code class="f6">#000000</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#111111"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">near-black</b> <code class="f6">#111111</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#333333"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">dark-gray</b> <code class="f6">#333333</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#555555"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">mid-gray</b> <code class="f6">#555555</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#777777"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">gray</b> <code class="f6">#777777</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#999999"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">silver</b> <code class="f6">#999999</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#AAAAAA"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-silver</b> <code class="f6">#AAAAAA</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#EEEEEE"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-gray</b> <code class="f6">#EEEEEE</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#F4F4F4"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">near-white</b> <code class="f6">#F4F4F4</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFFFFF"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">white</b> <code class="f6">#FFFFFF</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#E7040F"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">dark-red</b> <code class="f6">#E7040F</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FF4136"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">red</b> <code class="f6">#FF4136</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FF725C"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-red</b> <code class="f6">#FF725C</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FF6300"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">orange</b> <code class="f6">#FF6300</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFB700"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">gold</b> <code class="f6">#FFB700</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFD700"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">yellow</b> <code class="f6">#FFD700</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FBF1A9"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-yellow</b> <code class="f6">#FBF1A9</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#5E2CA5"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">purple</b> <code class="f6">#5E2CA5</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#A463F2"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-purple</b> <code class="f6">#A463F2</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#D5008F"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">dark-pink</b> <code class="f6">#D5008F</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FF41B4"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">hot-pink</b> <code class="f6">#FF41B4</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FF80CC"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">pink</b> <code class="f6">#FF80CC</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFA3D7"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-pink</b> <code class="f6">#FFA3D7</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#137752"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">dark-green</b> <code class="f6">#137752</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#19A974"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">green</b> <code class="f6">#19A974</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#9EEBCF"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-green</b> <code class="f6">#9EEBCF</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#001B44"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">navy</b> <code class="f6">#001B44</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#00449E"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">dark-blue</b> <code class="f6">#00449E</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#357EDD"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">blue</b> <code class="f6">#357EDD</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#96CCFF"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">light-blue</b> <code class="f6">#96CCFF</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#CDECFF"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">lightest-blue</b> <code class="f6">#CDECFF</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#F6FFFE"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">washed-blue</b> <code class="f6">#F6FFFE</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#E8FDF5"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">washed-green</b> <code class="f6">#E8FDF5</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFFCEB"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">washed-yellow</b> <code class="f6">#FFFCEB</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#FFDFDF"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">washed-red</b> <code class="f6">#FFDFDF</code>
+		</div>
+	</li>
+	<li class="fl w-100 w-50-m w-25-l mb1">
+		<div class="fl w-40 pv4" style="background-color:#CCCCCC"></div>
+		<div class="fl w-60 lh-copy pl2 pt2">
+			<b class="db">moon-gray</b> <code class="f6">#CCCCCC</code>
+		</div>
+	</li>
+</ul>
 </div>
 <div class="f-item-code f-item-hidden" data-f-toggle="code">
-	<pre><code class="language-markup">&lt;h1 class&#x3D;&quot;f1&quot;&gt;Heading Level 1&lt;/h1&gt;
-&lt;h2 class&#x3D;&quot;f2&quot;&gt;Heading Level 2&lt;/h2&gt;
-&lt;h3 class&#x3D;&quot;f3&quot;&gt;Heading Level 3&lt;/h3&gt;
-&lt;h4 class&#x3D;&quot;f4&quot;&gt;Heading Level 4&lt;/h4&gt;
-&lt;h5 class&#x3D;&quot;f5&quot;&gt;Heading Level 5&lt;/h5&gt;
-&lt;h6 class&#x3D;&quot;f6&quot;&gt;Heading Level 6&lt;/h6&gt;</code></pre>
+	<pre><code class="language-markup">&lt;ul class&#x3D;&quot;list pl0 ml0 cf&quot;&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#000000&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;black&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#000000&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#111111&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;near-black&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#111111&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#333333&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;dark-gray&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#333333&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#555555&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;mid-gray&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#555555&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#777777&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;gray&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#777777&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#999999&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;silver&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#999999&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#AAAAAA&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-silver&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#AAAAAA&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#EEEEEE&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-gray&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#EEEEEE&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#F4F4F4&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;near-white&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#F4F4F4&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFFFFF&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;white&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFFFFF&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#E7040F&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;dark-red&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#E7040F&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FF4136&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;red&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FF4136&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FF725C&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-red&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FF725C&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FF6300&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;orange&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FF6300&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFB700&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;gold&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFB700&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFD700&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;yellow&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFD700&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FBF1A9&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-yellow&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FBF1A9&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#5E2CA5&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;purple&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#5E2CA5&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#A463F2&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-purple&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#A463F2&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#D5008F&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;dark-pink&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#D5008F&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FF41B4&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;hot-pink&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FF41B4&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FF80CC&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;pink&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FF80CC&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFA3D7&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-pink&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFA3D7&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#137752&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;dark-green&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#137752&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#19A974&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;green&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#19A974&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#9EEBCF&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-green&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#9EEBCF&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#001B44&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;navy&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#001B44&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#00449E&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;dark-blue&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#00449E&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#357EDD&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;blue&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#357EDD&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#96CCFF&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;light-blue&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#96CCFF&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#CDECFF&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;lightest-blue&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#CDECFF&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#F6FFFE&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;washed-blue&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#F6FFFE&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#E8FDF5&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;washed-green&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#E8FDF5&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFFCEB&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;washed-yellow&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFFCEB&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#FFDFDF&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;washed-red&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#FFDFDF&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+	&lt;li class&#x3D;&quot;fl w-100 w-50-m w-25-l mb1&quot;&gt;
+		&lt;div class&#x3D;&quot;fl w-40 pv4&quot; style&#x3D;&quot;background-color:#CCCCCC&quot;&gt;&lt;/div&gt;
+		&lt;div class&#x3D;&quot;fl w-60 lh-copy pl2 pt2&quot;&gt;
+			&lt;b class&#x3D;&quot;db&quot;&gt;moon-gray&lt;/b&gt; &lt;code class&#x3D;&quot;f6&quot;&gt;#CCCCCC&lt;/code&gt;
+		&lt;/div&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
 </div>
 
+		</div>
+
+</div>
+
+
+<div class="f-item-group" id="layout">
+
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Layout</h2>
+	</div>
+		<div class="f-item-group" id="layout.center-vertical">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Center Vertical</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="h5 flex items-center bg-black-10">
+	<div class="pa2 bg-black-10 w-100">
+		<h1 class="mt0">Centered Container</h1>
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;h5 flex items-center bg-black-10&quot;&gt;
+	&lt;div class&#x3D;&quot;pa2 bg-black-10 w-100&quot;&gt;
+		&lt;h1 class&#x3D;&quot;mt0&quot;&gt;Centered Container&lt;/h1&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="layout.columns-example">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Columns Example</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="cf flex flex-wrap">
+	<div class="w-50 w-20-ns tc pv5 bg-black-05">
+		1
+	</div>
+	<div class="w-50 w-20-ns tc pv5 bg-black-10">
+		2
+	</div>
+	<div class="w-100 w-20-ns tc pv5 bg-black-20">
+		3
+	</div>
+	<div class="w-50 w-20-ns tc pv5 bg-black-10">
+		4
+	</div>
+	<div class="w-50 w-20-ns tc pv5 bg-black-05">
+		5
+	</div>
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;cf flex flex-wrap&quot;&gt;
+	&lt;div class&#x3D;&quot;w-50 w-20-ns tc pv5 bg-black-05&quot;&gt;
+		1
+	&lt;/div&gt;
+	&lt;div class&#x3D;&quot;w-50 w-20-ns tc pv5 bg-black-10&quot;&gt;
+		2
+	&lt;/div&gt;
+	&lt;div class&#x3D;&quot;w-100 w-20-ns tc pv5 bg-black-20&quot;&gt;
+		3
+	&lt;/div&gt;
+	&lt;div class&#x3D;&quot;w-50 w-20-ns tc pv5 bg-black-10&quot;&gt;
+		4
+	&lt;/div&gt;
+	&lt;div class&#x3D;&quot;w-50 w-20-ns tc pv5 bg-black-05&quot;&gt;
+		5
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="layout.max-widths">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Max Widths</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<div class="mw9 center tc pv5 bg-black-10">
+	Max width 9
+</div>
+<div class="mw8 center tc pv5 bg-black-10">
+	Max width 8
+</div>
+<div class="mw7 center tc pv5 bg-black-10">
+	Max width 7
+</div>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;div class&#x3D;&quot;mw9 center tc pv5 bg-black-10&quot;&gt;
+	Max width 9
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;mw8 center tc pv5 bg-black-10&quot;&gt;
+	Max width 8
+&lt;/div&gt;
+&lt;div class&#x3D;&quot;mw7 center tc pv5 bg-black-10&quot;&gt;
+	Max width 7
+&lt;/div&gt;</code></pre>
+</div>
+
+		</div>
+
+</div>
+
+
+<div class="f-item-group" id="typography">
+
+	<div class="f-item-heading-group">
+		<h2 class="f-item-heading" data-f-toggle="labels">Typography</h2>
+	</div>
+		<div class="f-item-group" id="typography.heading-1">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Heading 1</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<h1 class="f1">Heading Level 1</h1>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h1 class&#x3D;&quot;f1&quot;&gt;Heading Level 1&lt;/h1&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.heading-2">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Heading 2</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<h2 class="f2">Heading Level 2</h2>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h2 class&#x3D;&quot;f2&quot;&gt;Heading Level 2&lt;/h2&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.heading-3">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Heading 3</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<h3 class="f3">Heading Level 3</h3>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h3 class&#x3D;&quot;f3&quot;&gt;Heading Level 3&lt;/h3&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.heading-4">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Heading 4</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<h4 class="f4">Heading Level 4</h4>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h4 class&#x3D;&quot;f4&quot;&gt;Heading Level 4&lt;/h4&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.heading-5">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Heading 5</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<h2 class="f6 ttu tracked">Sub heading</h2>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;h2 class&#x3D;&quot;f6 ttu tracked&quot;&gt;Sub heading&lt;/h2&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.paragraph-lead">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Paragraph Lead</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="lh-copy f4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;lh-copy f4&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. &lt;/p&gt;</code></pre>
+</div>
+
+		</div>
+		<div class="f-item-group" id="typography.paragraph">
+			<div class="f-item-heading-group" data-f-toggle="labels">
+				<h3 class="f-item-heading">Paragraph</h3>
+				<div class="f-item-controls">
+					
+					<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+						<svg>
+							<use xlink:href="#f-icon-code" />
+						</svg>
+					</span>
+				</div>
+			</div>
+<div class="f-item-preview">
+	<p class="lh-copy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+	in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;p class&#x3D;&quot;lh-copy&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+	in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</code></pre>
+</div>
+
+		</div>
 
 </div>
 
